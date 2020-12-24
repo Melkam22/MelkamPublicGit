@@ -10,20 +10,21 @@ form{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 60%;
-  margin-left: 20%;
+  width: 65%;
+  margin-left: 15%;
   /* background-image: url(./resource/images/foodPrep1.jpg);
   background-position: center;
   background-size: cover; */
   /* background: rgba(11,23,66,.5); */
-  padding-left: 3%;
+  /* padding-left: 3%;
   padding-right: 3%;
-  margin-bottom: 2%;
+  margin-bottom: 2%; */
 }
 .input{
   color: silver;
   margin-top: 3px;
   width: 300px;
+  height: 30px;
 }
 
 #btn{
@@ -35,13 +36,14 @@ form{
   border: none;
   margin-top: 10px;
   box-shadow: 2px 4px 6px black;
-  background-color: silver;
+  background-color: goldenrod;
 }
 
 /* from melkamOrders */
 #table {
   width: 96%;
   margin-left: 2%;
+  margin-top: 10px;
 }
 #td {
   min-width: 30px;
