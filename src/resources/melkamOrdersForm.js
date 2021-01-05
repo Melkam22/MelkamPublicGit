@@ -29,7 +29,8 @@ mealFormFunction(){
             VeganVegetarian: '',
             InjeraQuantity: '',
             DeliveredTo: '',
-            DeliveryDate: ''
+            DeliveryDate: '',
+            RecipeFormat: ''
         }
     else return this.props.orders[this.props.currentIndex];
 } 
@@ -83,6 +84,8 @@ handleSubmit = (e) =>{
       <input name="DeliveryDate" placeholder="Delivery Date" value={this.state.DeliveryDate}
        onChange={this.handleChange} className="input" />
 
+     <input name="RecipeFormat" placeholder="Recipe Format" value={this.state.RecipeFormat}
+       onChange={this.handleChange} className="input" />
 
        <button id="btn" type="submit">Submit</button>
 

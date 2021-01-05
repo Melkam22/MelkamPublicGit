@@ -66,6 +66,7 @@ class melkamOrders extends Component {
                         <td id="td">{myItems.InjeraQuantity}</td>
                         <td id="td">{myItems.DeliveredTo}</td>
                         <td id="td">{myItems.DeliveryDate}</td>
+                        <td id="td">{myItems.RecipeFormat}</td>
                         <div id="actionButtons"> 
                         <button id="edit" onClick={()=>this.editItem(a)}>Edit</button>
                         <button id="delete" onClick={()=>this.deleteItem(a)}>Delete</button>
